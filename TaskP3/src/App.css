@@ -921,3 +921,29 @@ h3 {
 .signup-container p a {
   text-decoration: none;
 }
+
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.social-links a svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.social-links a:hover {
+  opacity: 0.75;
+}
